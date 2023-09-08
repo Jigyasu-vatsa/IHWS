@@ -1,11 +1,11 @@
-function DsplOnClick() {
- document.getElementById("DrpDwn").classList.toggle("show");
+function OnClickMenu() {
+  document.getElementById("OnClickShow").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
+
 window.onclick = function(event) {
-  if (!event.target.matches('.drpbtn')) {
-    var dropdowns = document.getElementsByClassName("DrpDwnCntnt");
+  if (!event.target.matches('.MlmDrpBtn')) {
+    var dropdowns = document.getElementsByClassName("MlmDrpDwnCntnt");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
