@@ -113,10 +113,6 @@ display: block;
 display: block;
 }
 
-.MlmDrpDwn {
-  position: relative;
-  display: inline-block;
-}
 
 .MlmDrpDwnCntnt {
   display: none;
