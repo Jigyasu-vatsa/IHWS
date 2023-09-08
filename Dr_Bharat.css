@@ -113,20 +113,6 @@ display: block;
 display: block;
 }
 
-
-.MlmDrpBtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 5px;
-  font-size: 12px;
-  border: none;
-  cursor: pointer;
-}
-
-.MlmDrpBtn:hover, .MlmDrpBtn:focus {
-  background-color: #2980B9;
-}
-
 .MlmDrpDwn {
   position: relative;
   display: inline-block;
@@ -149,7 +135,6 @@ display: block;
   display: block;
 }
 
-.MlmDrpDwn a:hover {background-color: #ddd;}
 
 
 
