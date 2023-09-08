@@ -8,7 +8,7 @@
 <!--/div-->
 <title> Health Welfare App </title>
 <link href="Dr_Bharat.css" rel="StyleSheet">
-<script src="Dr_Bharat.js"></script>
+<script href="Dr_Bharat.js"></script>
 <h3 class="c1"> "Dr. Bharat" </h3>
 <h3 class="c2"><a href="#" class="chvr" style="text-decoration:none;"><i>"Dr. Bharat"</i></a></h3>
 <h3 class="c3"> "Dr. Bharat" </h3>
@@ -23,8 +23,14 @@
 <li class="c8 c6 chvr active">
 Administration
 <div class="c9">
-<a href="hospitaloginpage" class="chvr">Hospitals</a>
-
+<a href="#hospitaloginpage" class="chvr">Hospitals</a>
+<a onclick="OnClickMenu()" class="c9 chvr active MlmDrpBtn">GovtAdmin</a>
+<div id="OnClickShow" class="MlmDrpDwnCntnt">
+<a href="#DisttGovtAdminloginpage" >DisttGovtAdmin</a>
+<a href="#StateGovtAdminloginpage" >StateGovtAdmin</a>
+<a href="#Centralloginpage" >CentralGovtAdmin</a>
+<a href="#AjigsControloginpage" >Ajig's</a>
+</div>
 </div>
 </li>
   
@@ -33,33 +39,27 @@ Administration
 <button type="submit" class="cursr" id="locationSearch"> Search </button>
 </form></a></li>
 
-<li class="c6">
-<div onclick="OnClickMenu()" class="c9 chvr active MlmDrpBtn">GovtAdmin</div>
-<div id="OnClickShow" class="MlmDrpDwnCntnt">
-<a href="DisttGovtAdminloginpage" >DisttGovtAdmin</a>
-<a href="StateGovtAdminloginpage" >StateGovtAdmin</a>
-<a href="Centralloginpage" >CentralGovtAdmin</a>
-<a href="AjigsControloginpage" >Ajig's</a>
-</div>
-</li>
+
+
+
   
 <li style="float:right;" class="c6"><a class="active ctb chvr" href="#about">About</a></li>
 
 <li style="float:right; background-color:white;" class="c8 c6 chvr">
 Contact
 <div class="c9">
-<a href="customercareinfo" class="chvr">Customer Support</a>
-<a href="drbharatcontactinfo" class="chvr">"Dr. Bharat"</a>
-<a href="customersupportinfo" class="chvr">Hospital Support</a>
+<a href="#customercareinfo" class="chvr">Customer Support</a>
+<a href="#drbharatcontactinfo" class="chvr">"Dr. Bharat"</a>
+<a href="#customersupportinfo" class="chvr">Hospital Support</a>
 </div>
 </li>
 
 <li style="float:right;" class="c8 c6 chvr active">
 Login
 <div class="c9">
-<a href="patientloginpage" class="chvr">Patients</a>
-<a href="doctorloginpage" class="chvr">Doctors</a>
-<a href="HoStaffsloginpage" class="chvr">Hospital Staffs</a>
+<a href="#patientloginpage" class="chvr">Patients</a>
+<a href="#doctorloginpage" class="chvr">Doctors</a>
+<a href="#HoStaffsloginpage" class="chvr">Hospital Staffs</a>
 </div>
 
 
