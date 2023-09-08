@@ -24,7 +24,7 @@
 Administration
 <div class="c9">
 <a href="#hospitaloginpage" class="chvr">Hospitals</a>
-<a onclick="OnClickMenu()" class="c9 chvr active MlmDrpBtn">GovtAdmin</a>
+<a onclick="OnClickMenu()" class="MlmDrpBtn">GovtAdmin</a>
 <div id="OnClickShow" class="MlmDrpDwnCntnt">
 <a href="#DisttGovtAdminloginpage" >DisttGovtAdmin</a>
 <a href="#StateGovtAdminloginpage" >StateGovtAdmin</a>
@@ -85,39 +85,7 @@ Login
 </form-->
 
 
-Trail One<br>
-<div onclick="OnClickMenu()" class="MlmDrpBtn">GovtAdmin</div>
-<div id="OnClickShow" class="MlmDrpDwnCntnt">
-<a href="#DisttGovtAdminloginpage" >DisttGovtAdmin</a>
-<a href="#StateGovtAdminloginpage" >StateGovtAdmin</a>
-<a href="#Centralloginpage" >CentralGovtAdmin</a>
-<a href="#AjigsControloginpage" >Ajig's</a>
-</div>
-<br>
 
-<script>
-
-function OnClickMenu() {
-  document.getElementById("OnClickShow").classList.toggle("show");
-}
-
-
-window.onclick = function(event) {
-  if (!event.target.matches('.MlmDrpBtn')) {
-    var dropdowns = document.getElementsByClassName("MlmDrpDwnCntnt");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
-
-Trial One Success<br>
 
 <div>
 <p> This app is specially designed for Medico-Diagnose Purposes
