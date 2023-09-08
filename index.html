@@ -86,7 +86,7 @@ Login
 
 
 Trail One<br>
-<div onclick="OnClickMenu()" class="chvr active MlmDrpBtn">GovtAdmin</div>
+<div onclick="OnClickMenu()" class="MlmDrpBtn">GovtAdmin</div>
 <div id="OnClickShow" class="MlmDrpDwnCntnt">
 <a href="#DisttGovtAdminloginpage" >DisttGovtAdmin</a>
 <a href="#StateGovtAdminloginpage" >StateGovtAdmin</a>
@@ -94,6 +94,28 @@ Trail One<br>
 <a href="#AjigsControloginpage" >Ajig's</a>
 </div>
 <br>
+
+<script>
+
+function OnClickMenu() {
+  document.getElementById("OnClickShow").classList.toggle("show");
+}
+
+
+window.onclick = function(event) {
+  if (!event.target.matches('.MlmDrpBtn')) {
+    var dropdowns = document.getElementsByClassName("MlmDrpDwnCntnt");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 
 Trial One Success<br>
 
