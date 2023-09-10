@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+<title>login</title>
+
+</head>
+
+<link href="Dr_B_lgn_pg.css" rel="StyleSheet">
+<script src="Dr_B_lgn_pg.js"></script>
+
+<body>
+
+<h1 class="l1">"Dr. Bharat"</h4>
+<h1 class="l2">Login Page</h4>
+<h1 class="l3">"Dr. Bharat"</h4>
+
+
+<div class="l4">
+<form action="#/action_page.php" class="l5">
+<label for="login_type" class="l6">Choose a user type:</label>
+
+<select name="users" id="users" class="l7">
+<option value="patients">Patients</option>
+<option value="Doctors">Doctors</option>
+<option value="Hospital_staffs">Hospital Staffs</option>
+</select>
+<br>
+
+<label for="usrnm" class="l8">Username:</label>
+<input type="text" id="usrnm" name="usrnm" value=""><br>
+
+<label for="pwd" class="l9">Password:</label>
+<input type="password" id="pwd" name="pwd" value="">
+<input type="reset" id="rstagn" value="Reset" class="l10">
+
+
+<br>
+<input type="submit" onmouseenter="flaga()" onclick="cnf()" value="Submit" id="bt" class="chvr l11">
+<!--onclick="alert(usrnm.value)"  anushka_singh  anu@11  onclick="cnf()"-->
+
+
+
+<h5 class="l12"><a href="#PwdReset"><b>Forgot Password</b></a><h5>
+</form>
+<h4 class="l13"><a href="#NewUserRegistraion"><b>New User</b></a> <i>Click Here For Registration</i><h4>
+
+</div>
+
+</body>
+</html>
